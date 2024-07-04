@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    @apply p-0 m-0 box-border;
+}
+.class1{
+    @apply bg-fontColor-dark-1
+}
+
+.hidden-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .visible-navbar {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  
+.container-1{
+    /* @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20; */
+    @apply px-4 py-8 lg:mx-20 lg:mt-24 box-border;
+}
+.container-product{
+    @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20;
+}
+.container-next{
+    /* @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20; */
+    @apply px-4 py-8  lg:mx-0   box-border; 
+}
+
+.container-2{
+    @apply p-5 m-5 box-border;
+}
+
+
+.home-grid-lg{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr ;
+    grid-template-areas: 
+    'home-title home-image'
+    'home-info home-image'
+    'home-btn home-image'
+    ;
+    
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'home-title'
+    'home-image'
+    'home-info'
+    'home-btn'
+    ;
+    
+}
+.home-grid-title{
+    grid-area: home-title;
+
+}
+
+.home-grid-image{
+    grid-area: home-image;
+    justify-self: end;
+    align-self: self-end;
+}
+.home-grid-btn{
+    grid-area: home-btn;
+}
+
+.home-grid-info{
+    grid-area: home-info;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'product-title'
+    'product-image'
+    'product-info';
+}
+
+.product-grid-lg{
+    display: grid;
+    grid-template-columns: auto 1.5fr;
+    grid-template-rows:  2fr 4fr;
+    grid-template-areas: 
+
+    'product-image product-title'
+    'product-image product-info';
+
+    /* gap: 1rem; */
+
+
+}
+
+.product-grid-rev-lg{
+    display: grid;
+    grid-template-columns:1.5fr auto;
+    grid-template-rows:  2fr 3fr;
+    grid-template-areas: 
+
+    'product-title product-image '
+    ' product-info product-image';
+
+    /* gap: 1rem; */
+
+
+}
+
+
+
+.product-title{
+    grid-area: product-title;
+}
+.product-image{
+    grid-area: product-image;
+}
+.product-info{
+    grid-area: product-info;
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.quicksand-a {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* styles.css */
+  .shadow-golden-circle {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.shadow-golden-circle::before {
+    content: '';    
+    position: absolute;
+    bottom: -50px; /* Position the shadow outside the container from the bottom */
+    left: -50px; /* Position the shadow outside the container from the left */
+    width: 20%;
+    height: 60%;
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(170px); /* Adjust blur for shadow effect */
+    z-index: -200; /* Place it behind the container */
+}
+.shadow-golden-circle-right {
+    position: relative;
+
+    /* overflow: hidden; */
+}
+.shadow-golden-circle-right::before {
+    content: '';
+    position: absolute;
+    bottom: -90px; /* Position the shadow outside the container from the bottom */
+    right: -100px; /* Position the shadow outside the container from the left */
+    width: 20%;
+    height: 60%;
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(90px); /* Adjust blur for shadow effect */
+    z-index: -200; /* Place it behind the container */
+}
+.shadow-golden-circle-left {
+    position: relative;
+
+    /* overflow: hidden; */
+}
+
+.shadow-golden-circle-left::before {
+    content: '';
+    position: absolute;
+    bottom: -100px; /* Position the shadow outside the container from the bottom */
+    left: -90px; /* Position the shadow outside the container from the left */
+    width: 20%;
+    height: 60%;
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(90px); /* Adjust blur for shadow effect */
+    z-index: -200; /* Place it behind the container */
+
+}
+
+header{
+    z-index: 1000;
+}
+
+.z1500{
+    z-index: 1500;
+}
+
+
+#products-section{
+    overflow: hidden;
+}
+
+
+.line-ht{
+    line-height: 5rem;
+}
+
+.shadow-gold-r{
+    position: relative;
+}
+
+.shadow-gold-r::before{
+    content:'';
+    position: absolute;
+    bottom: -20px; /* Position the shadow outside the container from the bottom */
+    right: -20px; /* Position the shadow outside the container from the left */
+    width: 20%;
+    height: 40%;
+
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(50px); /* Adjust blur for shadow effect */
+    z-index: -200; /* Place it behind the container */
+}
+
+.shadow-gold-l{
+    position: relative;
+}
+
+.shadow-gold-l::before{
+    content:'';
+    position: absolute;
+    bottom: -50px; /* Position the shadow outside the container from the bottom */
+    left: -50px; /* Position the shadow outside the container from the left */
+    width: 40%;
+    height: 60%;
+
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(70px); /* Adjust blur for shadow effect */
+    z-index: -200; /* Place it behind the container */
+}

@@ -1,0 +1,40 @@
+{
+    "SiteName": "Generaic stie",
+    "HomeH2Content": "Welcome to Navkar Lights",
+    "HomePContent":"Welcome to Navkar Lights, Your One-Stop Destination For Top-Quality Electrical Products And Solutions. With A Steadfast Commitment To Quality, Safety, And Customer Satisfaction, We Have Established Ourselves As A Trusted Name In The Electrical Industry.",
+    "imageSrc": "./assets/image-1.png",
+    "HomeWhyUsH2":"Why choose us?",
+    "ExpertiseContent": "With years of experience, we bring unparalleled expertise to the table, ensuring you get the best advice and products for all your electrical needs. Whether you are an industry professional or a homeowner, we cater to a wide array of customers, offering tailored solutions that meet your specific requirements.",
+    "MissionContent": "At Navkar Lights, our mission is to provide exceptional electrical products and solutions that improve the quality of life for our customers. We strive to be the preferred choice for those seeking reliable, innovative, and sustainable electrical solutions.",
+    "ContactH2Content": "Contact us at",
+    "PhoneNo": "8104409285",
+    "WhatsappNo": "8104409284",
+    "Mail": "krupalvora789@gmail.com",
+    "Instagram": "Generaic.site",
+    "Addrress": "Addrress",
+    "GoogleMapLocations": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4619.175531676113!2d72.82723841763327!3d18.945943879536337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce21132056d9%3A0x2413eb42829481a7!2sMercury%20Electrix!5e0!3m2!1sen!2sin!4v1719425525257!5m2!1sen!2sin",
+    "ProductPage": {
+        "productH2Content": "WElcome to product page",
+        "ProductPContent":"From Switches To Wires And Everything In Between, Our Shop Offers A Comprehensive Range Of Electrical Goods. Explore Our Offerings To Find Quality Products At Competitive Prices And Electrify Your Home, Business & Projects With Confidence.",
+        "ProductList": [
+            {
+                "ProductName": "Hanging lights",
+                "ProductImage": "./assets/lights.png",
+                "ProductAlt": "High-Quality Wires and Cables",
+                "ProductContent": "Ensure Reliable And Safe Electrical Connections For Your Home And Business With High-Quality Wires And Cables. Engineered For Superior Conductivity, These Cables Are Perfect For Transmitting Electricity With Minimal Loss. They Are Designed To Be Highly Durable, Resistant To Wear And Tear, And Suitable For Both Indoor And Outdoor Applications. With Easy Installation And Various Sizes Available, These Wires And Cables Will Meet All Your Electrical Needs. Trust In These Products To Provide Consistent Power Flow And Ensure The Safety Of Your Electrical Systems."
+              },
+              {
+                "ProductName": "Name Plates",
+                "ProductImage": "./assets/namePlates.png",
+                "ProductAlt": "PVC Conduit Pipes",
+                "ProductContent": "Protect Your Electrical Wiring Systems With Robust PVC Conduit Pipes, Ensuring Longevity And Safety. These Pipes Are Lightweight Yet Sturdy, Making Them Easy To Install And Handle. They Are Resistant To Corrosion, Chemicals, And Physical Impact, Providing Excellent Protection For Your Cables. Ideal For Both Residential And Industrial Applications, These Conduit Pipes Are Designed To Withstand Extreme Weather Conditions. Their Smooth Interior Surface Reduces Friction, Making It Easier To Pull Wires Through Them. Choose PVC Conduit Pipes For A Secure And Reliable Electrical Installation."
+              },
+              {
+                "ProductName": "Ceiling lights",
+                "ProductImage": "./assets/bulbs.png",
+                "ProductAlt": "Electrical Switches",
+                "ProductContent": "Enhance Your Electrical Setup With A Range Of Stylish, Durable, And Functional Electrical Switches. Crafted With High-Quality Materials, These Switches Ensure Smooth And Reliable Operation. Available In Various Designs And Finishes, They Can Match Your Décor, Adding A Touch Of Elegance To Your Space. Built To Last, These Switches Ensure Long-Term Performance And Safety. Whether For Residential Or Commercial Use, They Offer Ease Of Installation And Maintenance. Smart Configurations Are Also Available, Allowing For Modern, Automated Control Of Your Electrical Devices."
+              }
+            ]
+    }
+}

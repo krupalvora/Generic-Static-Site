@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  
+    <title>Header</title>
+</head>
+<body>
+    <!-- ------------NAV--------- -->
+    <header class="font-lato fixed top-0  w-[100vw] bg-white   box-border ">
+
+        <nav id="nav-mobile" class="lg:hidden">
+            <div class=" relative">
+
+                <div class="lg:hidden flex p-2 m-2 mr-4 max-h-16">
+
+                    <button id="open-hamburger" class="">
+                        <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
+                    </button>
+                    <a class="flex-[2] flex justify-center items-center overflow-hidden" href="./">
+                        <img class="max-h-full h-12 " src="./assets/image.png" alt="Mercury Electrix">
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <nav class=" hidden lg:flex px-4  justify-between items-center  h-full max-h-14 lg:mt-10   mx-16">
+            <a class="flex-[2] ml-0 overflow-hidden " href="./">
+                <img class="h-full max-h-14 object-contain" src="./assets/image.png" alt="Mercury Electrix">
+            </a>
+            <ul class="flex-[2]  gap-10 flex items-center justify-end text-lg font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12   "><a href="./">Home</a>
+                    <div class="hidden nav-active-about self-center  w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12 "><a href="./products.html">Products</a>
+                    <div class="hidden nav-active-products self-center  w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12 "><a href="./contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center  w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="responsive-navItems-list"
+        class="fixed  hidden flex-col items-start   left-0 top-0  h-[100%] w-full  backdrop-blur-xl lg:hidden z1500">
+        <button id="close-hamburger" class=" ml-4 mt-6 justify-self-start">
+            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl "></i>
+        </button>
+        <div class="flex justify-center items-center p-2 m-2 self-center min-h-[60%]   ">
+
+            <ul
+                class=" flex-[2]  gap-y-4 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1 text-center justify-items-center ">
+                <li class="flex flex-col gap-1 h-12  min-w-[10rem] self-center"><a href="./">Home</a>
+                    <div class="hidden nav-active-about self-center  w-1/4 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12 min-w-[10rem]"><a href="./products.html">Products</a>
+                    <div class="hidden nav-active-products self-center w-1/4 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12 min-w-[10rem]"><a href="./contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/4 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ------------NAV--------- -->
+</body>
+<script src="./js/nav.js" type="module"></script>
+<script src="./js/index.js" type="module"></script>
+</html>
